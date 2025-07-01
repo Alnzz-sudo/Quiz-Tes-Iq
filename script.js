@@ -28,7 +28,37 @@ const soalIQ = [
       "Elang adalah Mamalia"
     ],
     jawaban: "Elang bisa terbang"
-  }
+  },
+  {
+  pertanyaan: "6. Seorang ayah berumur 40 tahun, anaknya 10 tahun. Berapa tahun lagi umur ayah akan tiga kali lipat dari umur anak?",
+  pilihan: ["10", "15", "5", "20"],
+  jawaban: "5"
+},
+{
+  pertanyaan: "7. Dalam satu kotak terdapat 5 bola merah, 3 bola biru, dan 2 bola kuning. Jika kamu mengambil 1 bola tanpa melihat, peluang paling besar kamu dapat warna apa?",
+  pilihan: ["Merah", "Biru", "Kuning", "Semua sama"],
+  jawaban: "Merah"
+},
+{
+  pertanyaan: "8. Seseorang masuk ke rumah gelap, hanya ada satu korek dan di dalam ada lilin, lampu minyak, dan kompor. Apa yang harus dinyalakan terlebih dahulu?",
+  pilihan: ["Lilin", "Lampu minyak", "Kompor", "Korek"],
+  jawaban: "Korek"
+},
+{
+  pertanyaan: "9. Jika semua burung bisa terbang, dan ayam adalah burung, tapi ayam tidak bisa terbang tinggi. Maka pernyataan yang benar adalah?",
+  pilihan: [
+    "Ayam bukan burung",
+    "Semua burung bisa terbang tinggi",
+    "Ayam bisa terbang sedikit tapi tetap burung",
+    "Ayam sama sekali tidak bisa terbang"
+  ],
+  jawaban: "Ayam bisa terbang sedikit tapi tetap burung"
+},
+{
+  pertanyaan: "10. Ibu Ani punya 4 anak. Tiga di antaranya adalah Nana, Nini, dan Nene. Siapa nama anak keempat?",
+  pilihan: ["Nono", "Nunu", "Ani", "Nana"],
+  jawaban: "Ani"
+}
 ];
 
 let indeksSoal = 0;
