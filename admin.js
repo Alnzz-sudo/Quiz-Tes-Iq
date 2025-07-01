@@ -4,7 +4,7 @@ function adminResetLeaderboard() {
 
   // Ubah ini sesuai keinginan lo
   const adminUsername = "admin";
-  const adminPassword = "aldy120898";
+  const adminPassword = "aldy120808";
 
   if (username === adminUsername && password === adminPassword) {
     const konfirmasi = confirm("Yakin ingin menghapus semua data leaderboard?");
