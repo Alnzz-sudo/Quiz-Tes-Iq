@@ -126,6 +126,14 @@ function tampilkanLeaderboard() {
   });
   html += "</ol>";
   return html;
+  
+// Tombol admin (bisa lo custom tampilannya juga)
+  html += `
+    <button onclick="adminResetLeaderboard()" style="margin-top:10px; background:red; color:white;">
+      🔒 Refresh Leaderboard (Admin)
+    </button>
+  `;
+  return html;
 }
 
 // Penting: Panggil soal pertama saat halaman dimuat
