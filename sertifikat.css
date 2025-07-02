@@ -1,0 +1,28 @@
+/* sertifikat.css */ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body { font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #667eea, #764ba2); margin: 0; padding: 40px 20px; display: flex; align-items: center; justify-content: center; min-height: 100vh; color: #fff; }
+
+.sertifikat-container { background: rgba(0, 0, 0, 0.4); padding: 40px; border-radius: 16px; box-shadow: 0 0 20px rgba(0,0,0,0.4); max-width: 600px; width: 100%; text-align: center; backdrop-filter: blur(12px); }
+
+.sertifikat-container h1 { font-size: 28px; margin-bottom: 10px; font-weight: 600; color: #ffea00; }
+
+.sertifikat-container h2 { font-size: 24px; margin: 10px 0; color: #00ffd9; }
+
+.sertifikat-container p { font-size: 16px; margin: 8px 0; }
+
+.sertifikat-container .tanggal { margin-top: 20px; font-style: italic; color: #e0e0e0; }
+
+.btn-container { margin-top: 30px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+
+.btn-container button, .btn-container a button { background: #00ffd9; border: none; padding: 10px 18px; font-size: 14px; border-radius: 8px; cursor: pointer; color: #333; transition: background 0.3s ease; }
+
+.btn-container button:hover { background: #00c6a2; }
+
+#copyright { margin-top: 30px; font-size: 13px; color: #ccc; font-style: italic; }
+
+@media print {
+  .btn-container {
+    display: none;
+    background: none;
+  }
+}
